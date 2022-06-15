@@ -1,0 +1,86 @@
+
+@font-face {font-family: "Museo Sans 100"; src: url("//db.onlinewebfonts.com/t/3b12f78c783e678acc1f0fefe8e46380.eot"); src: url("//db.onlinewebfonts.com/t/3b12f78c783e678acc1f0fefe8e46380.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3b12f78c783e678acc1f0fefe8e46380.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3b12f78c783e678acc1f0fefe8e46380.woff") format("woff"), url("//db.onlinewebfonts.com/t/3b12f78c783e678acc1f0fefe8e46380.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3b12f78c783e678acc1f0fefe8e46380.svg#Museo Sans 100") format("svg"); }
+
+@font-face {font-family: "Museo Sans 500"; src: url("//db.onlinewebfonts.com/t/16697a764b01cdcc691b05f001046bc3.eot"); src: url("//db.onlinewebfonts.com/t/16697a764b01cdcc691b05f001046bc3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/16697a764b01cdcc691b05f001046bc3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/16697a764b01cdcc691b05f001046bc3.woff") format("woff"), url("//db.onlinewebfonts.com/t/16697a764b01cdcc691b05f001046bc3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/16697a764b01cdcc691b05f001046bc3.svg#Museo Sans 500") format("svg"); }
+
+@font-face {font-family: "Museo Sans 700"; src: url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.eot"); src: url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.woff") format("woff"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.svg#Museo Sans 700") format("svg"); }
+
+@font-face {font-family: "Museo Sans 300"; src: url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.eot"); src: url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.woff") format("woff"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.svg#Museo Sans 700") format("svg"); }
+
+.Text-Style-4 {
+  font-family: 'Museo Sans 700';
+  font-size: 2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #093550;
+}
+
+.Text-Style-3 {
+  font-family: 'Museo Sans 300';
+  font-size: 1.125rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2aa5ff;
+}
+
+.Text-Style-2 {
+  font-family: 'Museo Sans 700';
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.Text-Style {
+  font-family: 'Museo Sans 100';
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: var(--dodger-blue);
+}
+
+.Keuzekop {
+  font-family: 'Museo Sans 300';
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #093550;
+}
+
+.Text {
+  font-family: 'Museo Sans 300';
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #58727e;
+}
+
+input {
+  font-family: 'Museo Sans 300';
+  font-size: 0.75rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #6b9bc4;
+}
+
