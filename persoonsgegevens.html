@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/persoonsgegevens.css">
+    
+    <script src="loader.js"></script>
+    <script type="module" src="persoonsgegevens.js"></script>
+    <script src="https:unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <title>Blue Current</title>
+</head>
+<body>
+    
+    <div class="form-header">
+        <div class="form-header-content">
+            <!-- Powered-by images -->
+            <img src="./Images/PoweredBy/powered-by.png"
+            srcset="./Images/PoweredBy/powered-by@2x.png 2x,
+            ./Images/PoweredBy/powered-by@3x.png 3x"
+            class="Powered-by" >
+
+            <!-- Blue current logo -->
+            <img src="./Images/BlueCurrentLogo/blue-current-logo-blue-v-2.png"
+            srcset="./Images/BlueCurrentLogo/blue-current-logo-blue-v-2@2x.png 2x,
+            ./Images/BlueCurrentLogo/blue-current-logo-blue-v-2@3x.png 3x"
+            class="Blue-Current-logo---Blue-v2">
+        </div>
+    </div>
+
+    <div class="rectangle-whitespace"></div>
+
+    <div class="form-content">
+
+        <!-- Progression tab -->
+        <div class="form-header-bar">
+            <div class="header-progressbar">
+                <div class="progression">
+                    <div class="left-progression"></div>
+                    <span class="progression-text Text-Style-2">2/7</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-container">
+            
+            <div class="section-column-1">
+                <!-- Text column -->
+                <div class="text-div">
+                    <h2 class="Text-Style">Motorhuis laadpunt samenstellen</h2>
+                    <h1 class="Text-Style-4">Gefeliciteerd!</h1>
+                    <p class="Text-1">Je hebt een pracht oplaadpunt samengesteld! Vul jouw gegevens in en wij nemen graag jouw setting door. Tot snel!</p>
+                </div>
+
+                <div class="laadpaal-info">
+                    <div class="image noselect">
+                        <!-- U:paal image -->
+                        <img src="./Images/UPaal/u-move.png"
+                        srcset="./Images/UPaal/u-move@2x.png 2x,
+                        ./Images/UPaal/u-move@3x.png 3x"
+                        class="UMove">
+                    </div>
+
+                    <div class="text-options">
+                        <div class="row">
+                            <span class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </span>
+                            <p class="Text-3">Laden met vaste kabel</p>
+                        </div>
+
+                        <div class="row">
+                            <span class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </span>
+                            <p class="Text-3">5 Meter</p>
+                        </div>
+
+                        <div class="row">
+                            <span class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </span>
+                            <p class="Text-3">Op een paal</p>
+                        </div>
+
+                        <div class="row">
+                            <span class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </span>
+                            <p class="Text-3">Graafwerk</p>
+                        </div>
+
+                        <div class="row">
+                            <span class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </span>
+                            <p class="Text-3">Tot 6 meter</p>
+                        </div>
+
+                        <div class="row">
+                            <span class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </span>
+                            <p class="Text-3">Geen</p>
+                        </div>
+
+                        <div class="column-jouw-keuze">
+                            <p class="Text-Style-6">Jouw keuze </p>
+                            <span class="span-euro Text-Style-9">&euro;1.219</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-column-1">
+                <!-- Form -->
+                <form class="form">
+                    <h2 class="Text-Style-5">Naam</h2>
+
+                    <div class="input-form">
+                        <input type="text" id="voornaam" class="form__input Text-1" autocomplete="off" placeholder=" ">
+                        <label for="voornaam" class="form__label Text-2">Voornaam</label>
+                    </div>
+
+                    <div class="input-form">
+                        <input type="text" id="achternaam" class="form__input Text-1" autocomplete="off" placeholder=" ">
+                        <label for="achternaam" class="form__label Text-2">Achternaam</label>
+                    </div>
+
+                    <h2 class="Text-Style-5">Contact</h2>
+
+                    <div class="input-form">
+                        <input type="text" id="telefoonnummer" class="form__input Text-1" autocomplete="off" placeholder=" ">
+                        <label for="telefoonnummer" class="form__label Text-2">Telefoonnummer</label>
+                    </div>
+
+                    <div class="input-form">
+                        <input type="text" id="e-mail" class="form__input Text-1" autocomplete="off" placeholder=" ">
+                        <label for="e-mail" class="form__label Text-2">E-mail</label>
+                    </div>
+
+                    <h2 class="Text-Style-5">Adres</h2>
+
+                    <div class="input-form">
+                        <input type="text" id="straatnaam-huisnr" class="form__input Text-1" autocomplete="off" placeholder=" ">
+                        <label for="straatnaam-huisnr" class="form__label Text-2">Straatnaam-huisnr</label>
+                    </div>
+
+                    <div class="row-adres">
+                        <div class="input-form-1">
+                            <input type="text" id="postcode" class="form__input Text-1" autocomplete="off" placeholder=" ">
+                            <label for="postcode" class="form__label Text-2">Postcode</label>
+                        </div>
+
+                        <div class="input-form-2">
+                            <input type="text" id="plaats" class="form__input Text-1" autocomplete="off" placeholder=" ">
+                            <label for="plaats" class="form__label Text-2">Plaats</label>
+                        </div>
+                    </div>
+
+                    <div class="row-button-offerte">
+                        <!-- Direct betalen button -->
+                        <button type="button" class="betalen-button Text-Style-2">
+                            <span class="betalen-button-text">Direct betalen</span>
+                            <span class="betalen-button-icon">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </span>
+                        </button>
+
+                        <a class="Text-Style-7">Stuur een offerte</a>
+                    </div>
+                    <div class="betalen">
+                        <p class="Text-Style-8">Betalen via iDEAL, Creditcard… etc.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+     
+        <div class="bottom-container">
+            <div class="left-button-container">
+                <!-- Vorige button -->
+                <button type="button" class="vorige-button Text-Style-3">
+                    <span class="vorige-button-icon">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </span>
+                    <span class="vorige-button-text">Vorige</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Page loader  -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+</body>
+</html>
